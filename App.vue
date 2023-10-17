@@ -13,7 +13,7 @@
 				// #ifdef APP-PLUS
 				plus.globalEvent.addEventListener('newintent', (e)=>{
 					 var args= plus.runtime.arguments;
-					 /* console.log("==---="+args);
+					  console.log("==---="+args);
 					 if(args){//值就是"myappUrlSchemes://参数xxx"
 					 	let argArr=args.split("www.shhaoyuanjk.com://");
 					 	uni.redirectTo({
@@ -23,7 +23,7 @@
 						 uni.redirectTo({
 						 	url:"pages/zhifu/zhifu"
 						 })
-					 } */
+					 }
 					 uni.redirectTo({
 					 	url:"pages/success/success"
 					 })
